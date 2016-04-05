@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+   <dimen name="text_size_1">1px</dimen>
+   <dimen name="text_size_2">2px</dimen>
+   <dimen name="text_size_3">3px</dimen>
+   <dimen name="text_size_4">4px</dimen>
+   <dimen name="text_size_5">5px</dimen>
+   <dimen name="text_size_6">6px</dimen>
+   <dimen name="text_size_7">7px</dimen>
+   <dimen name="text_size_8">8px</dimen>
+   <dimen name="text_size_9">9px</dimen>
+   <dimen name="text_size_10">10px</dimen>
+   <dimen name="text_size_11">11px</dimen>
+   <dimen name="text_size_12">12px</dimen>
+   <dimen name="text_size_13">13px</dimen>
+   <dimen name="text_size_14">14px</dimen>
+   <dimen name="text_size_15">15px</dimen>
+   <dimen name="text_size_16">16px</dimen>
+   <dimen name="text_size_17">17px</dimen>
+   <dimen name="text_size_18">18px</dimen>
+   <dimen name="text_size_19">19px</dimen>
+   <dimen name="text_size_20">20px</dimen>
+   <dimen name="text_size_21">21px</dimen>
+   <dimen name="text_size_22">22px</dimen>
+   <dimen name="text_size_23">23px</dimen>
+   <dimen name="text_size_24">24px</dimen>
+   <dimen name="text_size_25">25px</dimen>
+   <dimen name="text_size_26">26px</dimen>
+   <dimen name="text_size_27">27px</dimen>
+   <dimen name="text_size_28">28px</dimen>
+   <dimen name="text_size_29">29px</dimen>
+   <dimen name="text_size_30">30px</dimen>
+
+
+   <dimen name="offset_1">1px</dimen>
+   <dimen name="offset_2">2px</dimen>
+   <dimen name="offset_3">3px</dimen>
+   <dimen name="offset_4">4px</dimen>
+   <dimen name="offset_5">5px</dimen>
+   <dimen name="offset_6">6px</dimen>
+   <dimen name="offset_7">7px</dimen>
+   <dimen name="offset_8">8px</dimen>
+   <dimen name="offset_9">9px</dimen>
+   <dimen name="offset_10">10px</dimen>
+   <dimen name="offset_11">11px</dimen>
+   <dimen name="offset_12">12px</dimen>
+   <dimen name="offset_13">13px</dimen>
+   <dimen name="offset_14">14px</dimen>
+   <dimen name="offset_15">15px</dimen>
+   <dimen name="offset_16">16px</dimen>
+   <dimen name="offset_17">17px</dimen>
+   <dimen name="offset_18">18px</dimen>
+   <dimen name="offset_19">19px</dimen>
+   <dimen name="offset_20">20px</dimen>
+   <dimen name="offset_21">21px</dimen>
+   <dimen name="offset_22">22px</dimen>
+   <dimen name="offset_23">23px</dimen>
+   <dimen name="offset_24">24px</dimen>
+   <dimen name="offset_25">25px</dimen>
+   <dimen name="offset_26">26px</dimen>
+   <dimen name="offset_27">27px</dimen>
+   <dimen name="offset_28">28px</dimen>
+   <dimen name="offset_29">29px</dimen>
+   <dimen name="offset_30">30px</dimen>
+
+
+
+   <dimen name="main_title_height">60px</dimen>
+
+</resources>

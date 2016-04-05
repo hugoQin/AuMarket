@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:andorid="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id = "@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_title_height">
+        <com.au.market.custom.MarketText
+            android:id="@+id/tv_title"
+            android:textSize="@dimen/text_size_20"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"/>
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="search"/>
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btn_setting"
+            android:layout_marginRight="@dimen/offset_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="setting"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_recommend"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_title_height"
+        android:layout_below="@+id/rl_title"
+        >
+        <com.au.market.custom.MarketText
+            android:id="@+id/tv_recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:text="one"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_20"
+            android:gravity="center"/>
+        <com.au.market.custom.MarketText
+            android:id="@+id/tv_classify"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:text="two"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_20"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_below="@+id/ll_recommend"
+        android:id="@+id/fl_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+
+</RelativeLayout>
